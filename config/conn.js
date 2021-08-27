@@ -1,7 +1,7 @@
 const express= require('express')
 const mongoose = require('mongoose')
 
-const DB =  'mongodb+srv://user:user@cluster0.ntvby.mongodb.net/Blog?retryWrites=true&w=majority'
+const DB =  'MONGO_URI'
 
 mongoose.connect(DB,{
     useNewUrlParser: true,
